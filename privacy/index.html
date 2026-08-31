@@ -5,20 +5,62 @@
 </head><body><main>
 <header><a href="/hush/">Hush</a><p>Block 140-series spam calls. Built in India.</p></header>
 <h1>Privacy Policy</h1>
-<p class="updated">Last updated 31 August 2026</p>
+<p class="updated">Applies to Hush version 1.0. Last updated 31 August 2026.</p>
 
 <h2>The short version</h2>
-<p class="lede">Hush collects nothing about you. There is no account, no server, and no analytics.
-The app cannot see who calls you, even if it wanted to.</p>
-<p>That is not a promise about how we behave. It is a description of how the app is built,
-and the rest of this page explains why it could not be otherwise.</p>
+<p class="lede">Hush collects nothing about you. It cannot see who calls you, and it is never
+told that a call happened.</p>
+<p>That is not a promise about how we intend to behave. It is a description of how iPhone call
+blocking works, and this page explains the difference between the parts that could never change
+and the parts that describe the app as it stands today.</p>
 
-<h2>What we collect</h2>
+<h2>Two kinds of statement on this page</h2>
+<p>Most privacy policies mix these together. We have separated them, because one kind is worth
+far more than the other and you deserve to know which is which.</p>
+<p><strong>Guarantees</strong> are true because of the way Apple built call blocking, not because
+we chose to be careful. Breaking one would mean abandoning the mechanism the app is built on.
+They carry no date, because they do not expire.</p>
+<p><strong>Facts about this version</strong> describe the app released today. They are accurate
+and they are dated. A future version could change one, and if that ever happens it will appear in
+the change history at the bottom of this page rather than being quietly edited away.</p>
+
+<h2>Guarantees</h2>
+
+<h3>Hush is never told that a call happened</h3>
+<p>Hush uses Apple's Call Directory system. The app hands iOS a list of phone numbers in advance.
+When a call arrives, <strong>iOS checks that list itself</strong>. Hush is not running, is not
+consulted, and receives nothing.</p>
+<p>This is why Hush cannot show you a count of blocked calls. Some people expect that feature.
+It cannot exist without the app seeing your calls, so it does not exist here, and it will not
+exist later.</p>
+
+<h3>Hush cannot see who is calling you</h3>
+<p>It follows from the above. The app never receives a caller's number, so there is nothing for
+it to store, count, or send anywhere. This is not a setting you have to trust us to leave
+switched off. There is no switch.</p>
+
+<h3>Nothing on the internet decides whether your call is blocked</h3>
+<p>The decision is made on your iPhone, by iOS, against a list already on the device. Blocking
+works with no signal, in aeroplane mode, with no SIM, and on a network you have never used
+before.</p>
+
+<h3>Hush never asks for your contacts</h3>
+<p>Not as a requirement, and not as an optional extra we nag you about. The app has no code that
+reads them.</p>
+
+<h3>There is no account</h3>
+<p>You never create one, and you are never asked for a name, an email address, or a phone number.
+We have no way to identify you and no way to link a subscription to a person.</p>
+
+<h2>What this version does</h2>
+<p>Accurate for version 1.0, as of 31 August 2026.</p>
+
+<h3>What we collect</h3>
 <p>Nothing.</p>
 <table>
 <tr><th>Contacts</th><td>Not accessed. Hush never asks.</td></tr>
 <tr><th>Call history</th><td>Not accessed.</td></tr>
-<tr><th>Who is calling you</th><td>Not visible to Hush at all. See below.</td></tr>
+<tr><th>Who is calling you</th><td>Not visible to Hush at all. See the guarantees above.</td></tr>
 <tr><th>Your phone number</th><td>Not collected.</td></tr>
 <tr><th>Location</th><td>Not accessed.</td></tr>
 <tr><th>Microphone</th><td>Not accessed.</td></tr>
@@ -27,42 +69,59 @@ and the rest of this page explains why it could not be otherwise.</p>
 <tr><th>Name, email, account</th><td>Never asked for. There is no sign up.</td></tr>
 <tr><th>Usage or analytics</th><td>Not collected. Hush contains no analytics software.</td></tr>
 </table>
-<p>Hush does not display advertisements and does not sell, share, or transfer data to anyone,
+<p>Hush does not display advertisements, and does not sell, share, or transfer data to anyone,
 because it does not have any.</p>
 
-<h2>Why Hush cannot see your calls</h2>
-<p>Hush uses Apple's Call Directory system. The app gives iOS a list of phone numbers in
-advance. When a call arrives, <strong>iOS checks that list itself</strong>. Hush is not running,
-is not consulted, and is never told that a call happened.</p>
-<p>This is why Hush cannot show you a count of blocked calls. Some people expect that feature.
-It cannot exist without the app seeing your calls, so it does not exist here.</p>
+<h3>What is stored on your iPhone</h3>
+<p>Three small values, none of which describes you: whether you have finished the introduction,
+a version number for the settings themselves so a future update knows how to read them, and which
+version of this policy your iPhone has seen, so a future version can tell you what changed rather
+than changing it quietly. All three stay on your device.</p>
+<p>The list of blocked numbers is not stored. It is calculated on your iPhone when protection is
+switched on.</p>
 
-<h2>What is stored on your iPhone</h2>
-<p>One setting: whether you have finished the introduction. It never leaves your device.</p>
-<p>The list of blocked numbers is not stored anywhere. It is calculated on your iPhone when
-protection is switched on.</p>
-
-<h2>Internet and servers</h2>
-<p><strong>Hush has no servers.</strong> There is no backend to hold your data, because there is
-no company system for your data to reach.</p>
-<p>The app itself never connects to the internet. Blocking works with no signal, in aeroplane
-mode, and on a network you have never used before.</p>
+<h3>Internet and servers</h3>
+<p><strong>This version of Hush contains no networking code of its own.</strong> There is no
+server holding your data, because there is no company system for your data to reach.</p>
 <p>The only network activity associated with Hush is Apple's own, when you buy or restore a
-subscription. That is handled entirely by the App Store. We never see your payment details,
-and Apple's privacy policy governs it.</p>
+subscription. That is handled entirely by the App Store. We never see your payment details, and
+Apple's privacy policy governs it.</p>
+
+<h3>If that ever changes</h3>
+<p>A future version may download an updated list of which number ranges to block, so that
+coverage can keep up with the people sending the calls. If it does:</p>
+<ul>
+<li>It would be a one way download of a public file. Nothing about you or your phone would be
+sent.</li>
+<li>It would be checked cryptographically before being trusted, and a list that failed the check
+would be discarded rather than used.</li>
+<li>It could not affect the guarantees above. The decision about an incoming call would still be
+made on your device, offline, with the app never told what the number was.</li>
+<li>It would appear in the change history below, before the version shipped.</li>
+</ul>
+<p>We are telling you this in advance rather than presenting it as a surprise later. Anything
+beyond it, in particular an account, a report a number feature, or anything that sends us
+information about your calls, would be a different product and would require your consent, not a
+policy edit.</p>
 
 <h2>Subscriptions</h2>
 <p>Subscriptions are processed by Apple through the App Store. Hush receives only whether an
-active subscription exists on your device. It does not receive your name, your email address,
+active subscription exists on the device. It does not receive your name, your email address,
 your payment method, or any Apple ID information.</p>
-<p>We cannot identify you, and we cannot link a subscription to a person.</p>
 
 <h2>Children</h2>
 <p>Hush does not collect data from anyone, including children.</p>
 
-<h2>Changes</h2>
-<p>If this policy ever changes, the date at the top changes with it. Any change that reduces
-your privacy would require an app update, which you would have to choose to install.</p>
+<h2>How this policy changes</h2>
+<p>The date at the top changes with any edit. Every substantive change is listed in the change
+history below, with what changed and when. A change that reduced your privacy would require an
+app update, which you would have to choose to install.</p>
+<p>We will not remove entries from the change history.</p>
+
+<h2>Change history</h2>
+<table>
+<tr><th>31 August 2026, version 1.0</th><td>First published.</td></tr>
+</table>
 
 <h2>Contact</h2>
 <p><a href="mailto:archtechone1@gmail.com">archtechone1@gmail.com</a></p>
